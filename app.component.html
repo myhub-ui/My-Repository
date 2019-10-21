@@ -1,0 +1,10 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+  <h2>Image-Grid</h2>
+  <p>Scroll-Basic-Functionality</p>
+  <div>
+<cdk-virtual-scroll-viewport itemSize="100" class="container">
+  <div  *cdkVirtualFor="let number of numbers" class="number">
+    {{number}}
+  </div>
+</cdk-virtual-scroll-viewport>
